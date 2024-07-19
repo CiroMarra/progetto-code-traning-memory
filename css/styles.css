@@ -1,0 +1,33 @@
+body {
+  background-color:teal;
+}
+
+.score-board {
+  font-size: 1.5rem;
+}
+
+.game-board {
+  max-width: 480px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #2e3d49;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.card.flipped {
+  background-color: papayawhip;
+  color: brown;
+}
+
+.card.matched {
+  background-color: greenyellow;
+}
